@@ -1,8 +1,20 @@
-node_modules/
-dist/
+# dependências
+node_modules
+client/node_modules
+server/node_modules
+
+# ambientes
 .env
-.env.local
-*.log
-.DS_Store
+.env.*
+.local
 .replit
-replit.nix
+
+# builds
+dist
+build
+coverage
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.vscode
