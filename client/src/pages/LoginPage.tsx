@@ -106,7 +106,7 @@ export default function LoginPage() {
   async function handleGoogleLogin() {
     await supabase.auth.signInWithOAuth({
       provider: "google",
-      options: { redirectTo: window.location.origin + "/login" }
+      options: { redirectTo: window.location.origin + "/painel" }
     })
   }
 
